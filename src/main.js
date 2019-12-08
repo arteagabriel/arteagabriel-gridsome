@@ -12,9 +12,4 @@ export default function (Vue, { router, head, isClient }) {
     rel: 'stylesheet',
     href: 'https://rsms.me/inter/inter.css'
   });
-
-  head.link.push({
-    rel: 'stylesheet',
-    href: 'https://fonts.googleapis.com/css?family=Inconsolata:400,700&display=swap'
-  });
 }
