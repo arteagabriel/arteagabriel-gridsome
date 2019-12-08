@@ -6,5 +6,24 @@
 
 module.exports = {
   siteName: 'Gabriel Arteaga',
-  plugins: []
+  css: {
+    loaderOptions: {
+      css: {
+        localIdentName: process.env.NODE_ENV === 'production' ? 'css-[hash:base64:8]' : '[local]_[hash:base64:8]'
+      }
+    }
+  },
+  plugins: [
+    {
+      use: 'gridsome-source-sanity',
+      options: {
+        projectId: process.env.SANITY_PROJECT_ID,
+        dataset: process.env.SANITY_DATASET,
+        // Token is only required if dataset is private
+        // or `overlayDrafts` is set to true
+        overlayDrafts: false,
+        watchMode: false
+      }
+    }
+  ]
 };

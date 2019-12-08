@@ -516,3 +516,8 @@ template {
 [hidden] {
   display: none !important;
 }
+
+::selection {
+  background: var(--primary);
+  color: var(--white);
+}

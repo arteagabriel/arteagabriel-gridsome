@@ -7,4 +7,14 @@ import DefaultLayout from '~/layouts/Default.vue';
 export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout);
+
+  head.link.push({
+    rel: 'stylesheet',
+    href: 'https://rsms.me/inter/inter.css'
+  });
+
+  head.link.push({
+    rel: 'stylesheet',
+    href: 'https://fonts.googleapis.com/css?family=Inconsolata:400,700&display=swap'
+  });
 }
