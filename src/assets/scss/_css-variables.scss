@@ -1,0 +1,46 @@
+:root {
+  /* Colors */
+ --white: #fff;
+ --primary: #085ff7;
+
+  /* Typography */
+  --font-family-sans-serif: Inter, Roboto, Helvetica, Arial;
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --font-family-base: var(--font-family-sans-serif);
+  --font-size-base: 0.875rem;
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
+  --font-weight-bolder: bolder;
+  --font-weight-base: var(--font-weight-normal);
+  --line-height-base: 1.5;
+
+  /* Body */
+  --body-bg: var(--white);
+  --body-color: #111;
+  --body-width: 100%;
+  --body-max-width: 720px;
+  --body-padding: 0 32px 60px;
+  --body-margin: 0 auto;
+
+  /* Headings */
+  --headings-margin-bottom: 0.5rem;
+
+  /* Paragraphs */
+  --paragraph-margin-bottom: 1rem;
+
+  --dt-font-weight: var(--font-weight-bold);
+
+  /* Link */
+  --link-color: var(--primary);
+  --link-decoration: none;
+  --link-hover-color: var(--primary);
+  --link-hover-decoration: underline;
+
+  /* Table */
+  --table-cell-padding: 0.75rem;
+  --table-caption-color: #6c757d;
+
+  /* Forms */
+  --label-margin-bottom: 0.5rem;
+}
+
