@@ -9,8 +9,9 @@
                    target="_blank"
                    rel="noopener noreferrer"
                 >{{ project.name }}</a>
-                <span>&nbsp;&mdash;&nbsp;</span>
-                <span>{{ project.description }}</span>
+                <ul>
+                    <li>{{ project.description }}</li>
+                </ul>
             </li>
         </ul>
     </section>
