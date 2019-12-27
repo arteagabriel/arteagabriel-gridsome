@@ -34,7 +34,7 @@
 
 <style module lang="scss">
     .title {
-        --title-font-size: 18px;
+        --title-font-size: 1.5rem;
         --title-letter-spacing: -0.011em;
         --title-line-height: 1.35;
 
