@@ -37,7 +37,7 @@
         --title-letter-spacing: -0.011em;
         --title-line-height: 1.35;
 
-        font-weight: var(--font-weight-semibold);
+        font-weight: var(--font-weight-bold);
         font-size: var(--title-font-size);
         letter-spacing: var(--title-letter-spacing);
         line-height: var(--title-line-height);
