@@ -92,7 +92,6 @@
         padding-left: var(--link-padding-x);
         padding-right: var(--link-padding-x);
         font-size: var(--link-font-size);
-        font-family: var(--font-family-monospace);
 
         &:first-of-type {
             padding-left: 0;
